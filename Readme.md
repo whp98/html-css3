@@ -32,4 +32,12 @@ header 页头   nav 构建页面的导航 article 页面内容的一部分 foote
 
 
 Html5中一个article标签可以创建一个节点，每个节点都会有自己的独立元素。
-示例[html创建节点]()
+
+article标签不能依赖于其他元素，作为页面有意义的一部分可以是文章也可以是一个评论等。
+示例[html创建节点](./1/使用html5元素书写的更加明确的页面写法.html)
+
+#### 使用css美化HTML 文档
+
+需要注意CSS默认元素的属性是inline（经过实验发现现在的chrome默认将元素的display的属性设置为block，所以书上写得不对） 为了正确显示设置的页面效果，需要将元素的display为block。
+
+
