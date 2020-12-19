@@ -39,5 +39,5 @@ article标签不能依赖于其他元素，作为页面有意义的一部分可�
 #### 使用css美化HTML 文档
 
 需要注意CSS默认元素的属性是inline（经过实验发现现在的chrome默认将元素的display的属性设置为block，所以书上写得不对） 为了正确显示设置的页面效果，需要将元素的display为block。
-
+[CSS的Display](./1/display需要使用设置为block.html)
 
