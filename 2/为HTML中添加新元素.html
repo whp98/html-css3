@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<!-- 说明:一些老版本的浏览器不支持html的新特性，我们可以手动创建元素来支持这些新元素 -->
+<!-- 但是下面的方法只是对Ie8以及更新的浏览器有用，更老的版本是不支持这种方式的 -->
+<head>
+    <meta charset="utf-8">
+    <title>为html添加新元素</title>
+    <script>
+        document.createElement("myHero")
+    </script>
+    <style>
+        myHero {
+            display: block;
+            background-color: #ddd;
+            padding: 50px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>我的第一个标题</h1>
+    <p>我的第一个段落</p>
+    <myHero>我的第一个新元素</myHero>
+</body>
+
+</html>
