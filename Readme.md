@@ -41,3 +41,7 @@ article标签不能依赖于其他元素，作为页面有意义的一部分可�
 需要注意CSS默认元素的属性是inline（经过实验发现现在的chrome默认将元素的display的属性设置为block，所以书上写得不对） 为了正确显示设置的页面效果，需要将元素的display为block。
 [CSS的Display](./1/display需要使用设置为block.html)
 
+
+对于不支持HTML5中新增元素的比如ie8或者更早的版本，可以在head标签中加入JavaScript代码，就可以应用样式。
+
+[适配IE8浏览器或者更早的版本](./1/IE8或者更早的版本.html)
